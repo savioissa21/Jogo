@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Reset de estilos para evitar inconsistências entre navegadores -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Estilos específicos para a tela de login -->
+    <link rel="stylesheet" href="css/login.css" />
+
+    <!-- Script para manipular o formulário de login -->
+    <script defer src="js/login.js"></script>
+
+    <title>Sincronize as memórias</title>
+  </head>
+  <body>
+    <!-- Formulário para entrada do nome do jogador -->
+    <form class="login-form">
+      <div class="login-header">
+        <h1>Sincronize as memórias</h1>
+        <!-- Campo de entrada para o nome -->
+        <input type="text" placeholder="nome" class="login-input" />
+        <!-- Botão que será habilitado somente após o nome ser preenchido -->
+        <button type="submit" class="login-button" disabled>Jogar</button>
+      </div>
+    </form>
+  </body>
+</html>
